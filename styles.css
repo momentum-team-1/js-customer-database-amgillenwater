@@ -28,6 +28,14 @@ h2 {
       
 div{
     text-transform: capitalize;
+    align-content: center;
 }
 
+.photo{
+    align-content: center;
+}
+
+img{
+    border-radius: 50%;
+}
 
