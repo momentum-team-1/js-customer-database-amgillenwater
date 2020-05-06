@@ -70,7 +70,7 @@ function loadAll() {
         // address line 2:
         let addressTwoElement = document.createElement("div");
         addressTwoElement.className = "city-state-zip";
-        addressTwoElement.innerHTML = `${individual.location.city} ${individual.location.state} ${individual.location.postcode}`;
+        addressTwoElement.innerHTML = `${individual.location.city}, ${individual.location.state} ${individual.location.postcode}`;
         cardElement.appendChild(addressTwoElement);
         //phone number:
          let phoneElement = document.createElement("div");
