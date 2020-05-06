@@ -21,8 +21,8 @@ h2 {
 
 .card {
     padding: .5rem;
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
+    text-align: center;
 
 }
       
@@ -37,5 +37,10 @@ div{
 
 img{
     border-radius: 50%;
+    text-align: center;
+}
+
+.info{
+    display: inline-block;
 }
 
