@@ -6,7 +6,11 @@ function renderPageContent(){
 
     let cardElement = document.createElement("div");
     cardElement.className = "card";
-    console.log(cardElement)
+    // console.log(cardElement)
+    let photoElement = document.createElement("img");
+    photoElement.innerHTML = `<img src="${customer.picture.thumbnail}">`;
+    // console.log (photoElement)
+
 
 }
 
