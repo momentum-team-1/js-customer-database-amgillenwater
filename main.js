@@ -21,11 +21,22 @@ function renderPageContent(){
         nameElement.innerHTML = `${customer.name.first} ${customer.name.last}`
     // console.log(nameElement)
         cardElement.appendChild(nameElement);
-    
-
-
-
-
+    let addressElement = document.createElement("div");
+        addressElement.className = "address-street";
+        addressElement.innerHTML = `${customer.location.street}`;
+        cardElement.appendChild(addressElement);
+    let addressTwoElement = document.createElement("div");
+        addressTwoElement.className = "city-state-zip";
+        addressTwoElement.innerHTML = `${customer.location.city} ${customer.location.state} ${customer.location.postcode}`;
+        cardElement.appendChild(addressTwoElement);
+    let phoneElement = document.createElement("div");
+        phoneElement.className = "phone";
+        phoneElement.innerHTML = `${customer.phone}`;
+        cardElement.appendChild(phoneElement);
+    let regDate = document.createElement("div");
+        regDate.className = "reg-date";
+        regDate.innerHTML=`${customer.registered}`;
+        cardElement.appendChild(regDate);
 }
 
 renderPageContent()

@@ -23,4 +23,7 @@ h2 {
     padding: .5rem;
 }
       
+div{
+    text-transform: capitalize;
+}
 
