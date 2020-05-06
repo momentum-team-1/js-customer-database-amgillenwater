@@ -18,7 +18,7 @@ function renderPageContent(){
         cardElement.appendChild(infoElement);
     let nameElement = document.createElement("div")
         nameElement.className = "name";
-        nameElement.innerHTML = `${customer.name.first} ${customer.name.last}`
+        nameElement.innerHTML = `<h2>${customer.name.first} ${customer.name.last}</h2>`
     // console.log(nameElement)
         cardElement.appendChild(nameElement);
     let addressElement = document.createElement("div");

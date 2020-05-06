@@ -21,9 +21,13 @@ h2 {
 
 .card {
     padding: .5rem;
+    display: flex;
+    flex-direction: column;
+
 }
       
 div{
     text-transform: capitalize;
 }
+
 
