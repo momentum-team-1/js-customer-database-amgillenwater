@@ -80,7 +80,7 @@ function loadAll() {
         //registration date:
         let regDate = document.createElement("div");
         regDate.className = "reg-date";
-        regDate.innerHTML=`${individual.registered}`;
+        regDate.innerHTML=`${moment(individual.registered).format("MMM D, YYYY")}`;
         cardElement.appendChild(regDate);
 
     }
