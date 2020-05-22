@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 20pt;
+    font-weight: 700;
+
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 500;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 1rem;
+}
+
+.card {
+    padding: .5rem;
+    display: inline-block;
+    text-align: center;
+
+}
+      
+div{
+    text-transform: capitalize;
+    align-content: center;
+}
+
+.photo{
+    align-content: center;
+}
+
+img{
+    border-radius: 50%;
+    text-align: center;
+}
+
+.info{
+    display: inline-block;
+}
+
